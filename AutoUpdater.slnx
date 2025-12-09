@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="UpdaterApp/UpdaterApp.csproj" Id="a46949e5-09a3-4304-9e18-86c0b3257b71" />
+  <Project Path="UpdaterLib/UpdaterLib.csproj" Id="af16a274-01a2-4713-8494-c3e54e92fdaf" />
+</Solution>
