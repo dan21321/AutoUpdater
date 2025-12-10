@@ -1,8 +1,9 @@
 ﻿using System;
 using System.IO;
+using System.IO.Compression;
 using System.Linq;
 using System.Net;
-using System.IO.Compression;
+using System.Threading;
 
 namespace UpdaterApp
 {
@@ -54,6 +55,7 @@ namespace UpdaterApp
                 if (exe != null)
                 {
                     Console.WriteLine("Restarting app...");
+                    Thread.Sleep(1000);
                     System.Diagnostics.Process.Start(exe);
                 }
                 else
